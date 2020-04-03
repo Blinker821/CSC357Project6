@@ -7,6 +7,5 @@ int main(int argc, char *argv[])
    Stage processes[20];
    setbuf(stdout, NULL);
    while(runLoop(line, processes) != EOF)
-      printf("hello\n");
    return 0;
 }
